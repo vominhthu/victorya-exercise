@@ -8,32 +8,33 @@
     }
     .popular-list {
         padding: 2rem 0;
-        .popular-item {
-            position: relative;
-            &:hover {
-                .layer-image-content {
-                    display: flex;
+        .popular-item {            
+            .image {
+                position: relative;
+                &:hover {
+                    .layer-image-content {
+                        display: block;
+                    }
                 }
-            }
-            .layer-image-content {
-                display: none;
-                position: absolute;
-                bottom: 0;
-                background-color: rgba($blue, 0.7);
-                height: 100%;
-                width: 90%;
-                margin: 0 auto;
-                color: white;
-                .layer-image-content-child {
-                    height: 10%;
-                    display: flex;
-                    justify-content: flex-end;
-                    flex-direction: column;
+                .layer-image-content {
+                    display: none;  
                     position: absolute;
                     bottom: 0;
+                    background-color: rgba($blue, 0.7);
+                    height: 100%;
                     width: 100%;
+                    color: white;
+                    .layer-image-content-child {
+                        display: flex;
+                        justify-content: flex-end;
+                        flex-direction: column;
+                        position: absolute;
+                        padding-left: 10px;
+                        bottom: 0;
+                    }
                 }
             }
+            
 
         }
     }
