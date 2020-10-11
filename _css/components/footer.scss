@@ -9,7 +9,7 @@ footer {
         width: 100%;
         .navbar-brand {
             color: $purple;
-            margin-right: 0.5rem;
+            margin-right: 2rem;
         }
     }
     ul {
@@ -24,6 +24,13 @@ footer {
     .foot-nav {
         border-top: 2px solid rgba($gray, 0.2);
         border-bottom: 2px solid rgba($gray, 0.2);
+        @media (min-width: $breakpoint-sm) {
+            width: 80%;
+        }
+        @media (min-width: $breakpoint-md) {
+            width: 60%;
+        }
+        
     }
     .copyright {
         color: $gray;

@@ -6,7 +6,7 @@
 @import "../../components/footer.scss";
 @import url("https://fonts.googleapis.com/css?family=Mulish:400italic,600italic,400,600,300");
 @import url("https://fonts.googleapis.com/css?family=Georgia:400italic,600italic,400,600,300");
-
+@import "../../components/popular.scss";
 .btn-primary {
     color: $white;
     border-radius: 0;
@@ -20,6 +20,6 @@
 body {
     font-family: "Mulish", sans-serif;
 }
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Georgia", sans-serif;
 }

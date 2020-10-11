@@ -20,35 +20,31 @@
 <body>
     <header>
         <div class="container">
-            <div class="row pt-4">
-                <div class="col-12 mr-auto">
-                    <nav class="navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="#">Victorya</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-        
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto navbar-list">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Menu</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Package</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">Victorya</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto navbar-list">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Package</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+            </nav>
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-lg-6">
                     <div class="card">
@@ -61,7 +57,6 @@
                                 <a href="#" class="card-link">Watch our story</a>
                                 <a href="#" class="btn btn-sm btn-primary btn-circle">Play</a>
                             </div>
-        
                         </div>
                     </div>
                 </div>
@@ -367,20 +362,75 @@
 
         </div>
     </footer> -->
-
-    <section class="container subcribe">
-        <div class="row">
-            <div class="col-12">
-                <h5>Want to get the lastest Updates ?</h5>
-                <form class="form-inline" action="">
-                    <div class="subcribe-form-group d-flex flex-wrap justify-content-center">
-                        <input class="form-control" type="text" placeholder="example@yourmail.com"/>
-                        <button class="btn btn-primary mt-2">Subcribe</button>
+    <section class="container-fluid popular">
+        <div class="popular-title">
+            <h3>Our Popular Recipes</h3>
+        </div>
+        <div class="row popular-list">
+            <div class="col-10 offset-1 col-sm-6 col-md-3 card border-0 popular-item">
+                <div class="image">
+                    <img class="card-img-top" src="image/popular-1.png" alt="Card image cap">
+                </div>
+                <div class="layer-image-content">
+                    <div class="layer-image-content-child">
+                        <h5>Crinke Top Brownies</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr….</p>
+                        <div class="text-right"><button class="btn btn-primary">&rarr;</button></div>
                     </div>
-                </form>
+                </div>
+            </div>
+            <div class="col-10 offset-1 col-sm-6 col-md-3 card border-0 popular-item">
+                <div class="image">
+                    <img class="card-img-top" src="image/popular-2.png" alt="Card image cap">
+                </div>
+                <div class="layer-image-content">
+                    <div class="layer-image-content-child">
+                        <h5>Crinke Top Brownies</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr….</p>
+                        <div class="text-right"><button class="btn btn-primary">&rarr;</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 offset-1 col-sm-6 col-md-3 card border-0 popular-item">
+                <div class="image">
+                    <img class="card-img-top" src="image/popular-3.png" alt="Card image cap">
+                </div>
+                <div class="layer-image-content">
+                    <div class="layer-image-content-child">
+                        <h5>Crinke Top Brownies</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr….</p>
+                        <div class="text-right"><button class="btn btn-primary">&rarr;</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 offset-1 col-sm-6 col-md-3 card border-0 popular-item">
+                <div class="image">
+                    <img class="card-img-top" src="image/popular-4.png" alt="Card image cap">
+                </div>
+                <div class="layer-image-content">
+                    <div class="layer-image-content-child">
+                        <h5>Crinke Top Brownies</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr….</p>
+                        <div class="text-right"><button class="btn btn-primary">&rarr;</button></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <section class="container">
+        <div class="subcribe">
+            <h3 class="subcribe-title">Want to get the lastest Updates ?</h3>
+            <form class="form-inline w-100 justify-content-center" action="">
+                <div class="form-group d-flex flex-wrap  justify-content-center">
+                    <input class="form-control" type="text" placeholder="example@yourmail.com"/>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary">Subcribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="row foot-nav">

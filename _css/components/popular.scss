@@ -1,0 +1,40 @@
+.popular {
+    padding: 5rem 0 ;
+    .popular-title {
+        h3 {
+            text-align: center;
+            color: $text-blue;
+        }
+    }
+    .popular-list {
+        padding: 2rem 0;
+        .popular-item {
+            position: relative;
+            &:hover {
+                .layer-image-content {
+                    display: flex;
+                }
+            }
+            .layer-image-content {
+                display: none;
+                position: absolute;
+                bottom: 0;
+                background-color: rgba($blue, 0.7);
+                height: 100%;
+                width: 90%;
+                margin: 0 auto;
+                color: white;
+                .layer-image-content-child {
+                    height: 10%;
+                    display: flex;
+                    justify-content: flex-end;
+                    flex-direction: column;
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+}
