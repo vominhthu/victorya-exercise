@@ -2,7 +2,8 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../components/header.scss";
 @import "../../components/subcribe.scss";
-@import "../../components//footer.scss";
+@import "../../components/explore_foods.scss";
+@import "../../components/footer.scss";
 @import url("https://fonts.googleapis.com/css?family=Mulish:400italic,600italic,400,600,300");
 @import url("https://fonts.googleapis.com/css?family=Georgia:400italic,600italic,400,600,300");
 
@@ -10,6 +11,7 @@
     color: $white;
     border-radius: 0;
     box-shadow: 0 15px 29px rgba($primary, 0.5);
+    padding: 17px 46px;
 }
 .btn-circle {
     border-radius: 50%;

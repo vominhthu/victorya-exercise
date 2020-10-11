@@ -10000,6 +10000,47 @@ header .navbar-list {
   padding: 2rem 0;
 }
 
+.explore .explore-title {
+  width: 60%;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .explore .explore-title {
+    width: 53%;
+  }
+}
+.explore .explore-title h3 {
+  color: #0C3653;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 70px;
+}
+.explore .explore-title p {
+  text-align: center;
+  margin: 40px 0 45px;
+  color: #AEB2B4;
+}
+.explore .card-title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  color: #0C3653;
+}
+.explore .card-title span {
+  color: #F98169;
+}
+.explore .card {
+  box-shadow: 0 4px 20px -10px rgba(112, 112, 112, 0.5);
+  border-radius: 15px;
+  border: none;
+}
+.explore .card .card-text {
+  color: #AEB2B4;
+}
+.explore .btn-primary {
+  padding: 17px 55px;
+}
+
 footer .navbar, footer ul {
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -10036,6 +10077,7 @@ footer .copyright {
   color: #fff;
   border-radius: 0;
   box-shadow: 0 15px 29px rgba(249, 129, 105, 0.5);
+  padding: 17px 46px;
 }
 
 .btn-circle {
