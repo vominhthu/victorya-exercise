@@ -1,0 +1,23 @@
+.introduce {
+  .introduce-row {
+    margin-top: 7rem;
+  }
+  .introduce-img {
+    width: 100%;
+    img {
+      max-width: 100%;
+      border-radius: 25% 0 25% 0;
+      box-shadow: 0 4px 30px rgba($gray, 0.5);
+    }
+  }
+  .card-title {
+    color: $text-blue;
+    font-weight: 700;
+  }
+  .card-text {
+    color: $text-gray;
+  }
+  .card-button {
+    white-space: nowrap;
+  }
+}
