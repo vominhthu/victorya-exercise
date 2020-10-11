@@ -1,0 +1,9 @@
+.story {
+    color: $white;
+    background: url("../../image/story.png"), rgba($blue, 0.3);
+    .story-container {
+       .card-story {
+           background-color: transparent;
+       }
+    }
+}

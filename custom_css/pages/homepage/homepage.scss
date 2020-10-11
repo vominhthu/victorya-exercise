@@ -1,0 +1,131 @@
+header {
+    background-image: url("../../image/style 3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .header-container {
+        background-color: transparent;
+        margin: 0 auto;
+        width: 98%;
+        padding: 2rem 0;
+
+        .navbar {
+            .navbar-brand {
+                color: $purple;
+            }
+
+            .navbar-nav {
+                .nav-item .nav-link {
+                    color: $gray;
+                }
+
+                .active .nav-link {
+                    color: $blue;
+                }
+
+            }
+
+            .navbar-list {
+                width: 45%;
+                width: 100%;
+                text-align: right
+            }
+        }
+
+        .introduce-container {
+            width: 90%;
+            border: none;
+            background-color: transparent;
+            margin-top: 90px;
+
+            .card-title {
+                color: $blue;
+            }
+
+            .card-text {
+                color: rgba($blue, 0.7);
+            }
+
+            .card-button {
+                .card-link {
+                    color: $gray;
+                }
+            }
+
+            .card-button>* {
+                margin: 10px 30px 10px 0px;
+                white-space: nowrap;
+
+            }
+
+            background-color: transparent;
+            border: none;
+        }
+
+    }
+
+    @media (min-width: $breakpoint-sm) {
+        .header-container {
+            .introduce-container {
+                width: 80%;
+            }
+        }
+    }
+
+    @media (min-width: $breakpoint-md) {
+        .header-container {
+            width: 88%;
+
+            .introduce-container {
+                width: 70%;
+            }
+        }
+    }
+
+    @media (min-width: $breakpoint-lg) {
+        .header-container {
+            width: 90%;
+
+            .navbar {
+                .navbar-list {
+                    width: 45%;
+                    justify-content: space-between;
+                    margin-left: 5rem;
+                }
+            }
+
+            .introduce-container {
+                width: 50%;
+            }
+        }
+    }
+
+    @media (min-width: $breakpoint-xl) {
+        .header-container {
+            .introduce-container {
+                width: 45%;
+            }
+        }
+    }
+
+    @media (min-width: $breakpoint-xxl) {
+        .header-container {
+            .navbar {
+                .navbar-list {
+                    width: 35%;
+                }
+            }
+
+            .introduce-container {
+                width: 40%;
+            }
+
+        }
+    }
+
+}
+
+
+@import "../../components/introduce/introduce.scss";
+@import "../../components/story/story.scss";
+@import "../../components/footer";

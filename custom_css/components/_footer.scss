@@ -1,0 +1,54 @@
+footer {
+    .footer-container {
+        margin: 0 auto;
+        background-color: $white;
+        padding: 2rem 0;
+        .subcribe-form {
+            text-align: center;
+            box-shadow: 0px 7px 10px rgba($gray, 0.3);
+            border: 1px solid $white;
+            padding: 2rem 0;
+
+            .subcribe-form-group {
+                input {
+                    border: 1px solid $gray;
+                    border-radius: 0;
+                    margin: 0;
+                    border-right: none;
+                    
+                }
+            }
+        }
+
+        .navbar-footer {
+            // margin: 5rem 0px 2rem 0;
+            padding: 2rem 0;
+            .navbar {
+                border-top: 2px solid rgba($gray, 0.1);
+                border-bottom: 2px solid rgba($gray, 0.1);
+                width: 80%;
+                .navbar-nav {
+                    .nav-item {
+                        margin-right: 5px;
+                        white-space: nowrap;
+                        color: $gray;
+
+                    }
+                    .nav-item .nav-link {
+                        color: $gray;
+                    }
+                    .active .nav-link {
+                        color: $blue;
+                    }
+                }
+                .navbar-brand {
+                    color: $purple;
+                }   
+            }
+        }
+
+        .copyright {
+            color: $gray;
+        }
+    }
+}

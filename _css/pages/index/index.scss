@@ -1,0 +1,23 @@
+@import "../../variable";
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../components/header.scss";
+@import "../../components/subcribe.scss";
+@import "../../components//footer.scss";
+@import url("https://fonts.googleapis.com/css?family=Mulish:400italic,600italic,400,600,300");
+@import url("https://fonts.googleapis.com/css?family=Georgia:400italic,600italic,400,600,300");
+
+.btn-primary {
+    color: $white;
+    border-radius: 0;
+    box-shadow: 0 15px 29px rgba($primary, 0.5);
+}
+.btn-circle {
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+body {
+    font-family: "Mulish", sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Georgia", sans-serif;
+}

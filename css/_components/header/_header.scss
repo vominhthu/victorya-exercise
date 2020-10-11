@@ -1,0 +1,48 @@
+header {
+    background-image: url("../image/style 3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .header-container {
+        background-color: transparent;
+        width: 90%;
+        margin: 0 auto;
+
+        .navbar {
+            .navbar-brand {
+                color: $purple;
+            }
+
+            .navbar-nav {
+                .nav-item .nav-link {
+                    color: $gray;
+                }
+
+                .active .nav-link {
+                    color: $blue;
+                }
+
+            }
+        }
+
+        .card {
+            .card-title {
+                color: $blue;
+            }
+
+            .card-text {
+                color: rgba($blue, 0.7);
+            }
+
+            .card-button {
+                .card-link {
+                    color: $gray;
+                }
+            }
+
+            background-color: transparent;
+            border: none;
+        }
+
+    }
+}

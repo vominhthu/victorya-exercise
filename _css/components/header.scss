@@ -1,0 +1,48 @@
+header {
+    background-image: url("../../../image/style 3.png");
+    background-size: cover;
+    .navbar-brand {
+        width: 20%;
+    }
+    .card {
+        border: none;
+        background-color: transparent;
+        border-radius: none;
+        padding: 10rem 0;
+        @media (max-width: $breakpoint-md) {
+            padding: 2.5rem 0;
+        }
+    }
+    .card-title {
+        color: $blue;
+        font-weight: 350;
+    }
+    .card-text {
+        color: $text-blue;
+        padding: 2rem 0;
+    }
+    .navbar-brand {
+        color: $purple;
+        font-size: 1.5rem;
+    }
+    li.nav-item a {
+        color: $gray;
+    }
+    li.active a {
+        color: $text-blue;
+    }
+    .card-link {
+        white-space: nowrap;
+    }
+    .card-button > * {
+        margin: 10px 30px 10px 0px;
+        white-space: nowrap;
+    }
+    .card-button a.card-link {
+        color: $gray;
+    }
+    .navbar-list {
+        width: 50%;
+        justify-content: space-between;
+    }
+}

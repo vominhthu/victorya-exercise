@@ -1,0 +1,33 @@
+footer {
+    
+    .navbar, ul {
+        flex-wrap: nowrap;
+        @media (max-width: $breakpoint-xs) {
+            flex-wrap: wrap;
+        }
+        justify-content: space-between;
+        width: 100%;
+        .navbar-brand {
+            color: $purple;
+            margin-right: 0.5rem;
+        }
+    }
+    ul {
+        font-size: 14px;
+        li.nav-item a {
+            color: $gray;
+        }
+        li.active a {
+            color: $text-blue;
+        }
+    }
+    .foot-nav {
+        border-top: 2px solid rgba($gray, 0.2);
+        border-bottom: 2px solid rgba($gray, 0.2);
+    }
+    .copyright {
+        color: $gray;
+        padding: 2rem 0 1rem 0;
+    }
+    
+}
