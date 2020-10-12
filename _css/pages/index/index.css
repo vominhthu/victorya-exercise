@@ -9989,6 +9989,46 @@ header .navbar-list {
   justify-content: space-between;
 }
 
+.introduce {
+  padding: 5rem 0;
+}
+.introduce .introduce-row {
+  margin-top: 7rem;
+}
+.introduce .introduce-img {
+  width: 100%;
+}
+.introduce .introduce-img img {
+  max-width: 100%;
+  border-radius: 25% 0 25% 0;
+  box-shadow: 0 4px 30px rgba(112, 112, 112, 0.5);
+}
+.introduce .card-title {
+  color: #0C3653;
+  font-weight: 700;
+}
+.introduce .card-text {
+  color: #AEB2B4;
+}
+.introduce .card-button {
+  white-space: nowrap;
+}
+.introduce .introduce-image-container .image-col-left {
+  padding-right: 0px;
+  margin: 7rem 0 0 0;
+}
+.introduce .introduce-image-container .image-col-left .image {
+  text-align: right;
+  padding: 0;
+  padding-bottom: 10px;
+}
+.introduce .introduce-image-container .image {
+  padding: 5px;
+}
+.introduce .introduce-image-container .image-col-right {
+  padding-left: 0;
+}
+
 .subcribe {
   padding: 2rem 0 1rem 0;
   width: 100%;

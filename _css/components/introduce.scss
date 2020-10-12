@@ -1,23 +1,51 @@
 .introduce {
+  padding: 5rem 0;
   .introduce-row {
-    margin-top: 7rem;
+  margin-top: 7rem;
   }
+  
   .introduce-img {
-    width: 100%;
-    img {
-      max-width: 100%;
-      border-radius: 25% 0 25% 0;
-      box-shadow: 0 4px 30px rgba($gray, 0.5);
-    }
+  width: 100%;
+  
+  img {
+  max-width: 100%;
+  border-radius: 25% 0 25% 0;
+  box-shadow: 0 4px 30px rgba($gray, 0.5);
   }
+  }
+  
   .card-title {
-    color: $text-blue;
-    font-weight: 700;
+  color: $text-blue;
+  font-weight: 700;
   }
+  
   .card-text {
-    color: $text-gray;
+  color: $text-gray;
   }
+  
   .card-button {
-    white-space: nowrap;
+  white-space: nowrap;
   }
-}
+  
+  .introduce-image-container {
+  
+  .image-col-left {
+  padding-right: 0px;
+  margin: 7rem 0 0 0;
+  
+  .image {
+  text-align: right;
+  padding: 0;
+  padding-bottom: 10px;
+  }
+  }
+  
+  .image {
+  padding: 5px;
+  }
+  
+  .image-col-right {
+  padding-left: 0;
+  }
+  }
+  }
