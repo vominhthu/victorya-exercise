@@ -13,7 +13,6 @@
     color: $white;
     border-radius: 0;
     box-shadow: 0 15px 29px rgba($primary, 0.5);
-    padding: 17px 46px;
 }
 .btn-circle {
     border-radius: 50%;
@@ -24,4 +23,8 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Georgia", sans-serif;
+}
+.card {
+    border: 0;
+    background-color: transparent;
 }
